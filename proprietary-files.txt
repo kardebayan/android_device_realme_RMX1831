@@ -564,13 +564,9 @@ vendor/lib64/vendor.mediatek.hardware.gnss@1.1.so
 # GPS-Hardware
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.default.so
 vendor/lib/hw/gatekeeper.mt6771.so
 vendor/lib/hw/gatekeeper.oppo6771_18611.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.default.so
 vendor/lib64/hw/gatekeeper.mt6771.so
 vendor/lib64/hw/gatekeeper.oppo6771_18611.so

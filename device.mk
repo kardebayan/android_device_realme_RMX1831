@@ -148,6 +148,11 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter \
     libhwc2onfbadapter
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager-V1.0-java \
