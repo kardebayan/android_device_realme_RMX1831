@@ -561,8 +561,6 @@ vendor/lib64/hw/gps.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.gnss@1.1-impl.so
 vendor/lib64/vendor.mediatek.hardware.gnss@1.1.so
 
-# GPS-Hardware
-
 # Gatekeeper
 vendor/lib/hw/gatekeeper.default.so
 vendor/lib/hw/gatekeeper.mt6771.so
@@ -579,11 +577,6 @@ vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/vulkan.mt6771.so
 vendor/lib64/libOpenCL.so
-
-# Health
-vendor/bin/hw/android.hardware.health@2.0-service
-vendor/bin/hw/android.hardware.health@2.0-service.override
-vendor/etc/init/android.hardware.health@2.0-service.rc
 
 # Keymaster
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
