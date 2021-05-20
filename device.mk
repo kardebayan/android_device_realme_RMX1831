@@ -29,6 +29,34 @@ USE_XML_AUDIO_POLICY_CONF := 1
 PRODUCT_TARGET_VNDK_VERSION := 28
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.mt6771.rc \
+    fstab.mt6771 \
+    init.recovery.mt6771.rc \
+    init.recovery.usb.rc \
+    set_zram.sh \
+    engineer_vendor_shell.sh \
+    init.oppo.fingerprints.sh \
+    init.oppo.securetemplet.sh \
+    factory_init.connectivity.rc \
+    factory_init.project.rc \
+    factory_init.rc \
+    init.aee.rc \
+    init.ago.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6771.usb.rc \
+    init.oppo.reserve.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
+    ueventd.qcom.rc 
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
