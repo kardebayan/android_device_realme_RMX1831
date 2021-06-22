@@ -20,7 +20,18 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.a2dp.default
+    android.hardware.audio.effect@5.0-impl \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.soundtrigger@2.1-impl
+
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.primary.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    audio_policy.stub \
+    libaudiofondation.vendor \
+    libtinycompress
 
 # Audio policy configuration
 USE_XML_AUDIO_POLICY_CONF := 1
