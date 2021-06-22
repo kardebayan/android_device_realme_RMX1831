@@ -1820,9 +1820,7 @@ vendor/lib64/hw/power.mt6771.so
 # Radio
 
 # Sensors
-vendor/lib/libsensorndkbridge.so
 vendor/lib64/hw/sensors.mt6771.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensor_custom.so
 
 # Soter
